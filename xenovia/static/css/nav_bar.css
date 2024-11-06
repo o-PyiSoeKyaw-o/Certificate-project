@@ -1,0 +1,16 @@
+/* Reset some basic elements */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgba(45, 130, 200, 0.797), rgb(241, 178, 252), rgb(176, 194, 11));
+    border-radius: 10px;
+}
